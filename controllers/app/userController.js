@@ -27,7 +27,7 @@ module.exports = {
           status.SUCCESS_CODE,
           {},
           message.RECORD_EXISTS,
-          status.SUCCESS
+          status.ERROR
         );
       } else {
         return response(
